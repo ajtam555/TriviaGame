@@ -1,0 +1,53 @@
+/*body {
+	background-image: url("../images/background.jpg"); top center no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%;
+}
+*/
+
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("../images/background.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#title {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 55px;
+	text-align: center;
+	padding: 60px;
+	color: #C40000;	
+}
+
+.questions {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	margin: auto;
+	height:100%;
+	width:100%;
+	clear:both;
+	opacity: 0.8;
+	background-color: white;
+}
+
+#start {
+	font-family: 'Rubik Mono One', sans-serif;
+	font-size: 40px;
+	color: black;	
+	text-align: center;
+}
+
+.labels {
+	text-align: center;
+	opacity: 0.8;
+	background-color: white;
+}
